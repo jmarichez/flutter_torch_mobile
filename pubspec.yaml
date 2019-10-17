@@ -2,7 +2,7 @@ name: torch_mobile
 description: A Flutter plugin for inference of Pytorch models.
 version: 0.0.1
 author: Julien Marichez <julien.marichez@hosa.io>
-homepage: https://www.hosa.io
+homepage: https://github.com/jmarichez/flutter_torch_mobile
 
 environment:
   sdk: ">=2.2.0 <3.0.0"
