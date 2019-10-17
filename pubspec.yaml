@@ -1,0 +1,22 @@
+name: torch_mobile
+description: A Flutter plugin for inference of Pytorch models.
+version: 0.0.1
+author: Julien Marichez <julien.marichez@hosa.io>
+homepage: https://www.hosa.io
+
+environment:
+  sdk: ">=2.2.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  path_provider: ^1.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    androidPackage: io.hosa.torch_mobile
+    pluginClass: TorchMobilePlugin
